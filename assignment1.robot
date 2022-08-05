@@ -46,6 +46,7 @@ Welcome Page Should Be
 
 Select Date From Calander
     click element    Xpath://*[@id="imgBtnCal"]
+    click element    xpath://td[@class='day active today']
 
 Select Value From DropDown
     select from list by label    Xpath://*[@id="ctl00_ContentPlaceHolder1_ddProjects"]    NON-BILLABLE
